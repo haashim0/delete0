@@ -14,7 +14,7 @@ ADMINS = []
 for usr in environ.get("ADMINS").split():
     ADMINS.append(int(usr))
 
-START_MSG = "<b>Hᴇʟʟᴏ {}\n\nI ᴏɴʟʏ sᴜᴘᴘᴏʀᴛ ᴛʜᴇ</b> <a href='http://t.me/TamilDub_Linkzz'><b>TᴀᴍɪʟDᴜʙ_Lɪɴᴋᴢᴢ</b></a> <b>ɢʀᴏᴜᴘ\n\nI ᴅᴏ ɢʀᴏᴜᴘ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴄʟᴇᴀɴɪɴɢ ᴇᴠᴇʀʏ 30 ᴍɪɴᴜᴛᴇs</b>"
+START_MSG = "<b>Hᴇʟʟᴏ {}\n\nI ᴏɴʟʏ sᴜᴘᴘᴏʀᴛ ᴛʜᴇ</b> <a href='http://t.me/TamilDub_Linkzz'><b>TᴀᴍɪʟDᴜʙ_Lɪɴᴋᴢᴢ</b></a> <b>ɢʀᴏᴜᴘ\n\nI ᴅᴏ ɢʀᴏᴜᴘ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴄʟᴇᴀɴɪɴɢ ᴇᴠᴇʀʏ 𝟸 ʜᴏᴜʀs</b>"
 
 
 User = Client(name="user-account",
