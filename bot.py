@@ -8,10 +8,10 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "5724620740:AAHogMBJ7tcnmw-tzpz-76GrBql2FP_
 SESSION = environ.get("SESSION", "BQCP29HXGIByFPEJoEJboagmnw7oGXK5Bf0qRGZnGjLYmLX12UkK2N6AuBAOCNaGwhf_kFMsTfHfqdm9-seNX028VaskzHvt1Uj68z30frdb0zz-tXoFvnQxoN7o8IaErLkQBX-Q1zlDuZ23FGGX7uRESmL3aOUNcdJOiZ48Eg7RxuYB-CD3XO715H6rFQtVX_577sCISFz7fIEkK1MqmysjMOZ4DCNIYKwTb5mXbi3jNGrudrlOLWy3tX2606Zb5TKNQ4_9qNg8U2GS9Qs0u91vZVs0oXWHl40sq0qwGpf2QPDzuxVW7elBp0ZKfvfDEvHGBmBigEGX5R2pRsk8bqM8AAAAAUDWBKAA")
 TIME = int(environ.get("TIME", "7200"))
 GROUPS = []
-for grp in environ.get("GROUPS").split():
+for grp in environ.get("GROUPS", "-1001754707385").split():
     GROUPS.append(int(grp))
 ADMINS = []
-for usr in environ.get("ADMINS").split():
+for usr in environ.get("ADMINS", "5291606032").split():
     ADMINS.append(int(usr))
 
 START_MSG = "<b>Hᴇʟʟᴏ {}\n\nI ᴏɴʟʏ sᴜᴘᴘᴏʀᴛ ᴛʜᴇ</b> <a href='http://t.me/TamilDub_Linkzz'><b>TᴀᴍɪʟDᴜʙ_Lɪɴᴋᴢᴢ</b></a> <b>ɢʀᴏᴜᴘ\n\nI ᴅᴏ ɢʀᴏᴜᴘ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴄʟᴇᴀɴɪɴɢ ᴇᴠᴇʀʏ 𝟸 ʜᴏᴜʀs</b>"
