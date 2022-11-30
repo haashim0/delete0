@@ -5,7 +5,7 @@ from pyrogram import Client, filters, idle
 API_ID = int(environ.get("API_ID", "25774553"))
 API_HASH = environ.get("API_HASH", "331e36e1cb1263f72da71db7d291ed4a")
 BOT_TOKEN = environ.get("BOT_TOKEN", "5724620740:AAHogMBJ7tcnmw-tzpz-76GrBql2FP_iObU")
-SESSION = environ.get("SESSION", "BQCP29HXGIByFPEJoEJboagmnw7oGXK5Bf0qRGZnGjLYmLX12UkK2N6AuBAOCNaGwhf_kFMsTfHfqdm9-seNX028VaskzHvt1Uj68z30frdb0zz-tXoFvnQxoN7o8IaErLkQBX-Q1zlDuZ23FGGX7uRESmL3aOUNcdJOiZ48Eg7RxuYB-CD3XO715H6rFQtVX_577sCISFz7fIEkK1MqmysjMOZ4DCNIYKwTb5mXbi3jNGrudrlOLWy3tX2606Zb5TKNQ4_9qNg8U2GS9Qs0u91vZVs0oXWHl40sq0qwGpf2QPDzuxVW7elBp0ZKfvfDEvHGBmBigEGX5R2pRsk8bqM8AAAAAUDWBKAA")
+SESSION = environ.get("SESSION", "BQCWSID5_7Mnh80G_DTmTbbwfFB2GCLC_SWFYCshH0cwXYsI2QcQq9xi05TE9pwORrQu3wqERA0noUlxlzKHW7Wv-zu6S3Uj7OQcWX4AZmi3fpGsKUXvGAH_U2NZhkqb-U8FcAeneZz3Ws0MG8rdsnWRvHlZdfn391Jh9vJME4wIiUnL2_arwkg5N-GOf66lPRrsbTa9rEhvhp1G8S_P-4ltggdokQCR8q1durZAwNav_0mYQKHPmiJiaT7xtN05AIkd7TDB4yoRsWZHKEM79OaGAg9waPEVJYi4LzZ03DllXV-FbISvxYVSsZlEbdbW5Md_VbiJ80T1WHxijNKoHjUZAAAAAVabUgAA")
 TIME = int(environ.get("TIME", "7200"))
 GROUPS = []
 for grp in environ.get("GROUPS", "-1001754707385").split():
@@ -14,7 +14,7 @@ ADMINS = []
 for usr in environ.get("ADMINS", "5291606032").split():
     ADMINS.append(int(usr))
 
-START_MSG = "<b>Hᴇʟʟᴏ {}\n\nI ᴏɴʟʏ sᴜᴘᴘᴏʀᴛ ᴛʜᴇ</b> <a href='http://t.me/TamilDub_Linkzz'><b>TᴀᴍɪʟDᴜʙ_Lɪɴᴋᴢᴢ</b></a> <b>ɢʀᴏᴜᴘ\n\nI ᴅᴏ ɢʀᴏᴜᴘ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴄʟᴇᴀɴɪɴɢ ᴇᴠᴇʀʏ 𝟸 ʜᴏᴜʀs</b>"
+START_MSG = "<b>Hᴇʟʟᴏ {}\n\nI ᴏɴʟʏ sᴜᴘᴘᴏʀᴛ ᴛʜᴇ</b> <a href='http://telegram.me/TamilDub_Linkzz'><b>TᴀᴍɪʟDᴜʙ_Lɪɴᴋᴢᴢ</b></a> <b>ɢʀᴏᴜᴘ\n\nI ᴅᴏ ɢʀᴏᴜᴘ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴄʟᴇᴀɴɪɴɢ ᴇᴠᴇʀʏ 𝟸 ʜᴏᴜʀs</b>"
 
 
 User = Client(name="user-account",
